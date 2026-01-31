@@ -12,11 +12,11 @@ export default defineConfig({
     strictPort: true,
 
     // Tell the browser the exact origin to use when loading modules/HMR
-    origin: 'http://18.234.194.80:5173',
+    origin: 'http://13.222.175.106:5173',
 
     // HMR websocket endpoint (same host/port)
     hmr: {
-      host: '18.234.194.80',
+      host: '13.222.175.106',
       port: 5173,
       protocol: 'ws',
     },
